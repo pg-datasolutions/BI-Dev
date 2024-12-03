@@ -45,6 +45,7 @@ Here are the requirements:
             Percentage of Revenue = 
                      DIVIDE([Total Revenue],[Category Revenue],0)
 - Step 11: Create Product Matrix chart:
+  * Products with ID 7 are missing under Product file.
 ![Matrix](https://github.com/user-attachments/assets/68a31849-6aab-45d2-9108-c265581a9cf4)
 
 - Step 12: Create chart to show Top 5 Countries by Revenue. Including hover by Last name and drill down to a details page.
