@@ -1,7 +1,5 @@
 # Product Dashboard
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
-
 ## Problem Statement
 
 Create a one-page report for the CFO of your organisation. The organisation is testing new products, and we want to see some important information about them.
