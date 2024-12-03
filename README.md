@@ -1,5 +1,6 @@
 # Product Dashboard
 
+
 ## Problem Statement
 
 Create a one-page report for the CFO of your organisation. The organisation is testing new products, and we want to see some important information about them.
@@ -45,13 +46,16 @@ Here are the requirements:
                      DIVIDE([Total Revenue],[Category Revenue],0)
 - Step 11: Create Product Matrix chart:
 ![Matrix](https://github.com/user-attachments/assets/68a31849-6aab-45d2-9108-c265581a9cf4)
+
 - Step 12: Create chart to show Top 5 Countries by Revenue. Including hover by Last name and drill down to a details page. New tab for Details created.
 ![Top 5](https://github.com/user-attachments/assets/1804be52-b575-461c-bddd-62b24ee3c5d0)
 
 Details tab:
+
 ![Details ](https://github.com/user-attachments/assets/419e63b7-d576-45a5-afbb-fd08b21bea94)
 
 On hover:
+
 ![On hover](https://github.com/user-attachments/assets/bd7968ca-fe6b-48a9-a6b6-487a9c7043a0)
 - Step 13: Create additional Date table needed for plot chart:
 
@@ -59,5 +63,22 @@ On hover:
                     MIN(Sales[Transaction Date]), 
                     MAX(Sales[Departure Date]))
    
-- Step 14: Create measures to count transaction on Transaction Date and Departure Date: 
+- Step 14: Create measures to count transaction on Transaction Date and Departure Date:
 
+            Transactions by Transaction Date = CALCULATE(COUNTROWS(Sales),
+                                    USERELATIONSHIP('Date'[Date], Sales[Transaction Date]))
+
+            Transactions by Departure Date = CALCULATE(COUNTROWS(Sales),
+                                    USERELATIONSHIP('Date'[Date], Sales[Departure Date]))
+
+
+- Step 15: Create Line chart for transactions count under Transaction date and Departure date:
+![Line chart](https://github.com/user-attachments/assets/0bc8f3e5-b220-4838-bb2b-d4e9ef317b97)
+
+- Step 16: Create slicers:
+![Slicers](https://github.com/user-attachments/assets/ae6f62d0-7ba4-4bbc-bcc4-e01b4724573f)
+
+
+### Final design
+
+![Final](https://github.com/user-attachments/assets/c06a88d8-562c-493b-a091-79ec0af875d9)
