@@ -47,7 +47,8 @@ Here are the requirements:
 - Step 11: Create Product Matrix chart:
 ![Matrix](https://github.com/user-attachments/assets/68a31849-6aab-45d2-9108-c265581a9cf4)
 
-- Step 12: Create chart to show Top 5 Countries by Revenue. Including hover by Last name and drill down to a details page. New tab for Details created.
+- Step 12: Create chart to show Top 5 Countries by Revenue. Including hover by Last name and drill down to a details page.
+  New tab for Details created.
 ![Top 5](https://github.com/user-attachments/assets/1804be52-b575-461c-bddd-62b24ee3c5d0)
 
 Details tab:
